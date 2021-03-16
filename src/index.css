@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body {
+  font-family: 'Patua One', 'cursive';
+}
+
+/* Navbar */
+
+.navbar {
+  background: #000000;
+  font-family: 'Patua One', cursive;
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+}
+a {
+  font-family: 'Patua One', cursive;
+  font-weight: 500;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+a.m-auto {
+  color: #000000;
+}
+
+a.card-link {
+  color: #000000; 
+  text-align: center; 
+  font-family: 'Maven Pro', sans-serif; 
+  font-size: medium;
+}
+
+.nav-link {
+  font-size: 1.25rem;;
+  color: #ffffff;
+}
+
+.navbar-brand:hover {
+  color: #00D7FF;
+}
+
+.nav-link:hover {
+  color: #FF00FF;
+}
+
+/* .active {
+  color: #FF00FF;
+} */
+
+.navbar-toggler{
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+}  
+
+/* Main content for each page */
+
+body {
+  background: #ffffff;
+}
+
+h3 {
+  color: #000000;
+  font-family: 'Maven Pro', sans-serif;
+} 
+
+p {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  background: #FFFFFF;
+}
+
+/* About Me image */
+
+.profile-img {
+  padding: 2px;
+  border: 3px solid #00D7FF;
+  background-color: #000000;
+} 
+
+
+/* Portfolio cards */
+.card-img-top {
+  width: 500px;
+  height: 200px;
+  border: solid #000000;
+  margin: 1px;
+}
+
+.card {
+  border:solid #000000 2px;
+}
+
+.contact:hover {
+  color: #00D7FF;
+  opacity: 1;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.card-img-top:hover {
+   opacity: .7;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
